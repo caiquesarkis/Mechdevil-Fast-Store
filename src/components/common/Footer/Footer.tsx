@@ -9,7 +9,7 @@ import Icon from 'src/components/ui/Icon'
 import Link from 'src/components/ui/Link'
 import SROnly from 'src/components/ui/SROnly'
 import { mark } from 'src/sdk/tests/mark'
-
+import Logo from 'src/components/ui/Logo'
 import FooterLinks from './FooterLinks'
 
 function Footer() {
@@ -82,18 +82,9 @@ function Footer() {
       </div>
 
       <div className="footer__note layout__content">
-        <UIIcon
-          component={
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src="/BaseStore.svg"
-              alt="BaseStore logo"
-              width="124px"
-              height="32px"
-              loading="lazy"
-            />
-          }
-        />
+        <div footer-logo>
+          <Logo/>
+        </div>
 
         <UIPaymentMethods>
           <p className="text__title-mini">Payment Methods</p>

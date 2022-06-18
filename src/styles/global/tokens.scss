@@ -246,13 +246,13 @@ body {
   --fs-transition-function             : ease-in-out;
 
   // BORDERS
-  --fs-border-radius-small             : .125rem;
-  --fs-border-radius                   : .25rem;
+  --fs-border-radius-small             : 0;
+  --fs-border-radius                   : .125rem;
   --fs-border-radius-medium            : .5rem;
   --fs-border-radius-pill              : 100px;
   --fs-border-radius-circle            : 100%;
 
-  --fs-border-color                    : var(--fs-color-neutral-4);
+  --fs-border-color                    : var(--fs-color-neutral-2);
   --fs-border-color-hover              : var(--fs-color-main-3);
   --fs-border-color-active             : var(--fs-color-main-2);
   --fs-border-color-disabled           : var(--fs-color-neutral-6);

@@ -4,11 +4,10 @@
   position: relative;
   display: inline-flex;
   width: 100%;
-  height: var(--fs-control-tap-size);
-
-  @include media(">=notebook") { height: var(--fs-spacing-6); }
+  height: 100%;
 
   [data-store-input] {
+    background-color: var(--fs-color-neutral-2);
     width: 100%;
     padding: var(--fs-spacing-1) var(--fs-spacing-7) var(--fs-spacing-1) var(--fs-spacing-2);
     border: var(--fs-border-width) solid var(--fs-border-color);
@@ -20,7 +19,6 @@
       box-shadow: 0 0 0 var(--fs-border-width) var(--fs-border-color-active);
     }
 
-    @include input-focus-ring;
 
     [data-store-search-input-dropdown-open="true"] & {
       @include media(">=notebook") {
@@ -36,26 +34,25 @@
     position: absolute;
     right: 0;
     width: var(--fs-spacing-7);
-    height: var(--fs-spacing-7);
+    height: 100%;
     padding: 0;
     background-color: transparent;
     border: 0;
 
-    @include media(">=notebook") {
-      height: var(--fs-spacing-6);
-      min-height: var(--fs-spacing-6);
+    @include media("<=notebook"){
+      position: relative;
     }
   }
 
   [data-store-button] svg {
     width: var(--fs-spacing-4);
     height: var(--fs-spacing-4);
-    color: var(--fs-color-neutral-7);
+    color: var(--fs-color-neutral-5);
   }
 }
 
 .suggestion-product-card [data-fs-link] {
-  color: var(--fs-color-neutral-7);
+  color: var(--fs-color-neutral-2);
   text-decoration: none;
 
   &:hover {
@@ -65,6 +62,7 @@
 
 [data-store-search-input-wrapper] {
   position: relative;
+  height: 100%;
 
   [data-fs-search-suggestion-section] + [data-fs-search-input-loading-text] {
     padding-top: var(--fs-spacing-3);
@@ -92,7 +90,7 @@
   z-index: 1;
   width: 100vw;
   padding: var(--fs-spacing-3);
-  background-color: var(--fs-color-neutral-0);
+  background-color: var(--fs-color-neutral-2);
 
   &:empty {
     display: none;

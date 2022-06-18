@@ -79,6 +79,11 @@
     }
   }
 
+  [footer-logo]{
+    max-height: 48px;
+    max-width: 271px;
+  }
+
   [data-payment-methods-flags] {
     .text__title-mini {
       margin-bottom: var(--fs-spacing-3);

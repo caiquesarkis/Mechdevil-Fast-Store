@@ -38,7 +38,7 @@ function Alert({
 
   return (
     <UIAlert
-      icon={<Icon name={icon} width={24} height={24} />}
+      icon={<Icon name={icon} width={44} height={24} />}
       dismissible={dismissible}
       onClose={onAlertClose}
       link={link}
