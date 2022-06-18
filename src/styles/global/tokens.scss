@@ -13,26 +13,26 @@ body {
   // PALETTE
   // Tone values must range from lightest to darkest.
   // `0` is more suitable for backgrounds, and `4` for texts.
-  --fs-color-main-0                    : #ecf0ff;
-  --fs-color-main-1                    : #d8e2ff;
-  --fs-color-main-2                    : #00419e;
-  --fs-color-main-3                    : #002c71;
-  --fs-color-main-4                    : #001947;
+  --fs-color-main-0                    : #ECEFF4;
+  --fs-color-main-1                    : #E5E9F0;
+  --fs-color-main-2                    : #434C5E;
+  --fs-color-main-3                    : #3B4252;
+  --fs-color-main-4                    : #2E3440;
 
-  --fs-color-accent-0                  : #ebdcff;
-  --fs-color-accent-1                  : #8d50fd;
-  --fs-color-accent-2                  : #732fe2;
-  --fs-color-accent-3                  : #5900c8;
-  --fs-color-accent-4                  : #4700a0;
+  --fs-color-accent-0                  : #8FBCBB;
+  --fs-color-accent-1                  : #88C0D0;
+  --fs-color-accent-2                  : #81A1C1;
+  --fs-color-accent-3                  : #5E81AC;
+  --fs-color-accent-4                  : #272727;
 
-  --fs-color-neutral-0                 : #ffffff;
-  --fs-color-neutral-1                 : #f1f2f3;
-  --fs-color-neutral-2                 : #e3e6e8;
-  --fs-color-neutral-3                 : #c7ccd1;
-  --fs-color-neutral-4                 : #9099a2;
-  --fs-color-neutral-5                 : #74808b;
-  --fs-color-neutral-6                 : #5d666f;
-  --fs-color-neutral-7                 : #171a1c;
+  --fs-color-neutral-0                 : #ECEFF4;
+  --fs-color-neutral-1                 : #E5E9F0;
+  --fs-color-neutral-2                 : #D8DEE9;
+  --fs-color-neutral-3                 : #C7CDD8;
+  --fs-color-neutral-4                 : #4C566A;
+  --fs-color-neutral-5                 : #434C5E;
+  --fs-color-neutral-6                 : #3B4252;
+  --fs-color-neutral-7                 : #2E3440;
 
   // HIERARCHY
   --fs-color-primary-text              : var(--fs-color-text-inverse);
